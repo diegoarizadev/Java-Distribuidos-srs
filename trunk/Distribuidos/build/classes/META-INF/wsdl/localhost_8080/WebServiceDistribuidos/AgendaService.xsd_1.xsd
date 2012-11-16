@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.2.0-1 (tags/2.2.0u1-7139; 2012-06-02T10:55:19+0000) JAXWS-RI/2.2.6-2 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://WebService/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://WebService/">
+
+<xs:element name="consultar" type="tns:consultar"/>
+
+<xs:element name="consultarResponse" type="tns:consultarResponse"/>
+
+<xs:element name="guardar" type="tns:guardar"/>
+
+<xs:element name="guardarResponse" type="tns:guardarResponse"/>
+
+<xs:element name="prueba" type="tns:prueba"/>
+
+<xs:element name="pruebaResponse" type="tns:pruebaResponse"/>
+
+<xs:complexType name="consultar">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="consultarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="guardar">
+<xs:sequence>
+<xs:element name="nombres" type="xs:string" minOccurs="0"/>
+<xs:element name="apellidos" type="xs:string" minOccurs="0"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+<xs:element name="mail" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="guardarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="prueba">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="pruebaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
