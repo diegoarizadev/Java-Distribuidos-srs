@@ -8,7 +8,7 @@ Proyectos web y escritorio de Java los cuales implementan un Servicio Web utiliz
 
 # Galeria de imagenes
 
-* [Galeria](https://plus.google.com/photos/+DiegoAlejandroArizaMedina/albums/5752428458265210001?banner=pwa)
+* [Galeria](https://picasaweb.google.com/102172818830568538607/SDSocketRMISOAP)
 
 # Video Explicación.
 
